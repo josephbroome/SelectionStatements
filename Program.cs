@@ -28,7 +28,10 @@ class program
             case "Art":
                 Console.WriteLine("I never understood Art, everything to me just looks like a bunch of ones and zeros");
                 break;
-            
+            default: Console.WriteLine($"Thats neat, I have never taken that subject before, {subject} sounds interesting!");
+                break;
+
+
         }
 
 
