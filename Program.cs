@@ -22,7 +22,7 @@ class program
 
         else 
         {
-            Console.WriteLine("Nevermind");
+            Console.WriteLine("Thats correct!!");
         }
     }
 
