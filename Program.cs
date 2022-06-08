@@ -5,32 +5,30 @@ class program
     static void Main(String[] args)
     {
 
+        Console.WriteLine("What is your favorite subject?");
+
+        var subject = Console.ReadLine();
 
 
-        int day = 0;
-        switch (day)
+      
+        switch (subject)
         {
-            case 0:
-                Console.WriteLine("Sunday");
+            case "History":
+                Console.WriteLine("What a coincidence my favorite subject is History, to bad we are doomed to repeat it");
                 break;
-            case 1:
-                Console.WriteLine("Monday");
+            case "Math":
+                Console.WriteLine("Math is a very difficult subject, I dont like it even though I am a computer");
                 break;
-            case 2:
-                Console.WriteLine("Tuesday");
+            case "Science":
+                Console.WriteLine("Science is fun!, I like to preform Science experiments on Humans");
                 break;
-            case 3:
-                Console.WriteLine("Wednesday");
+            case "Chemistry":
+                Console.WriteLine("Chemistry! lets make a volcano!");
                 break;
-            case 4:
-                Console.WriteLine("Thursday");
+            case "Art":
+                Console.WriteLine("I never understood Art, everything to me just looks like a bunch of ones and zeros");
                 break;
-            case 5:
-                Console.WriteLine("Friday");
-                break;
-            case 6:
-                Console.WriteLine("Saturday");
-                break;
+            
         }
 
 
