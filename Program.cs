@@ -4,7 +4,9 @@ class program
 
     static void Main(String[] args)
     {
+       
 
+<<<<<<< HEAD
         Console.WriteLine("What is your favorite subject?");
 
         var subject = Console.ReadLine();
@@ -33,10 +35,30 @@ class program
 
 
         }
+=======
+        var favoriteNumber = 200;
+>>>>>>> 4d3db1d035f911ad4b987564e02dc45c2f0c8622
 
+        var userGuess = int.Parse(Console.ReadLine());
 
+<<<<<<< HEAD
 
+=======
+        if (userGuess < favoriteNumber)
+        {
+            Console.WriteLine("too low");
+        }
+>>>>>>> 4d3db1d035f911ad4b987564e02dc45c2f0c8622
 
+        else if (userGuess > favoriteNumber)
+        {
+            Console.WriteLine("too high");
+        }
 
+        else 
+        {
+            Console.WriteLine("Thats correct!!");
+        }
     }
+
 }
